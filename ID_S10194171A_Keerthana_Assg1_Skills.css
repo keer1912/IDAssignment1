@@ -1,0 +1,72 @@
+/*the width of skill logo will all be 90px*/
+.skill-logo{
+    width:90px;
+}  
+
+/*styling the first row of cards*/
+.tech-skills-card{
+    width: 300px;/*width of 300px*/
+    height:300px;/*height of 300px*/
+    text-align: center;
+    background:rgba(179, 145, 223, 0.253);/*card color for the first row only*/
+    box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11);
+    margin:30px;/*space around the card*/
+    padding:30px;/*space inside the card*/
+}
+
+/*styling the second row of cards,everything similar to the prev one except color.*/
+.soft-skills-card{
+    width: 300px;
+    height:300px;
+    text-align: center;
+    background:rgba(62, 182, 182, 0.301);
+    border-radius: 0px;
+    box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11);
+    margin:30px;
+    padding:30px;
+    margin-bottom:100px;
+}
+
+.flex-card-row-1,.flex-card-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;/*center all the card to the center of the page*/
+} 
+
+/*make the text in the card italic*/
+.skill-text{
+    font-style: italic;
+}
+.skill-class{
+    width:20%;/*sub-headings to only occupy 20% of space not 100%*/
+    font-size:28px;
+    padding:7px;/*space around the heading*/
+    letter-spacing: 3px;/*sapce between letters*/
+    text-align:center; /*center text in the "box"*/
+    background-color: #8bdfb2d8; 
+    margin:auto;/*center of the page*/
+    margin-top:50px;/*space between main heading and subheading.*/
+}
+/*color of the span to indicate difference in the word "here"*/
+.here{
+    color:blue;
+}
+
+@media(min-width:500px) and (max-width:1100px){
+    .skill-class{
+        width:40%;
+    }
+}
+@media(max-width:499px){
+    .skill-class{
+        width:50%;
+    }
+    .tech-skills-card,.soft-skills-card{
+        height: auto;/*inherit height based on content as it will shrink as screen size reduces*/
+    }
+}
+@media(min-width:270px) and (max-width:350px){
+    .skill-class{
+        font-size:22px;
+    }
+}

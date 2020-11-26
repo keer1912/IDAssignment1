@@ -1,0 +1,67 @@
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:30px;
+} 
+
+/*Space between heading and the top of the card*/  
+.flex-card h3{
+    margin-top:40px;
+}
+
+/*Styling the card/individual div*/
+.card{
+    width: 300px;/*Setting width of 300px*/
+    height:auto;/*Inherit height based on content*/
+    text-align: center;
+    margin:auto;/*Center the card to the center of the page*/
+    background:white;
+    border-radius: 20px;/*rounded corners*/
+    box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11);/*subtle shadows*/
+    margin:40px;/*spacing around the card*/
+    padding:30px;
+}
+
+/*size of school logo*/
+.school-logo{
+    width:150px;
+    height:150px;
+}
+
+/*style card text content to be italic*/
+.school-text{
+    font-style: italic;
+    font-weight: normal;
+}
+
+/*style card to have hover effect*/
+.card:hover{
+    transition: 0.4s;/*transition of 0.4s*/
+    background-color: #c7d3ec54;
+    transform: scale(1.1);/*zoom in 1.1 of actual size*/
+}
+
+/*style card to reduce width between 260px and 320px*/
+@media (min-width:260px) and (max-width:320px){
+    .card{
+        width:140px;
+    }
+    .flex-card{
+        padding-top:10px;
+    }
+}
+
+/*style card to reduce width between 260px and 320px*/
+@media (min-width:320px) and (max-width:440px){
+    .card{
+        width:200px;
+    }
+}
+
+/*style card to increase width between 260px and 320px*/
+@media (min-width:570px) and (max-width:959px){
+    .card{
+        width:400px;
+    }
+}

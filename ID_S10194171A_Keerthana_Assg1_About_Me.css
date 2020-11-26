@@ -1,0 +1,54 @@
+/*style about page flex-box*/
+.about-section-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin:auto;
+    padding:100px; /*spacing around the box*/
+}
+
+/*styling img size and shadow around it*/
+.about-section-flex img{
+    width:290px;
+    box-shadow: 6px 4px 12px 0px rgb(11, 12, 14);
+}
+
+/*styling img size and shadow around it*/
+.about-text{
+    padding:30px;
+    line-height: 25px;
+}
+/*styling media query to make the about section flex direction to column when it hits 850px*/
+@media(max-width:850px){
+    .about-section-flex{
+        flex-direction:column;
+        padding-top:30px;
+    }
+    .about-text{
+        width:340px;
+    }
+}
+
+/*styling media query to make the about section flex to have lesser padding from the headding to the content between 850px to 1000px*/
+@media(min-width:850px) and (max-width: 1000px){
+    .about-section-flex{
+        padding-top:10px;
+    }
+}
+
+/*styling media query to make the about section img change from 290px to 220px to fit more accurately when screen hits 270px to 370px*/
+@media (min-width:270px) and (max-width: 385px){
+    .about-section-flex img{
+        width:220px;
+    }
+    .about-text{
+        width:210px;/*changing width of about text content to 220px to fit into the page*/
+    }
+}
+
+@media (min-width:386px) and (max-width: 420px){
+    .about-text{
+        width:300px;
+    }
+}

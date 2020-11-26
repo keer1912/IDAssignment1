@@ -1,0 +1,81 @@
+/*container covering the form*/
+.form-container {
+  height: auto;/*inherit height from content of the form*/
+  width: 50%;/*of the page*/
+  margin: auto;/*center of the page*/
+  display: block;
+  background: rgba(228, 236, 243, 0.438);
+  box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11);
+  padding:40px;
+  margin-top:30px;
+  margin-bottom:70px;
+  border-radius: 10px;/*rounded corner*/
+}
+
+form {
+  width: 70%;/*of the container*/
+  margin: auto;/*center of the container*/
+}
+
+.input-box {
+  background: rgba(251, 251, 251, 0);/*transparent input box*/
+  margin-bottom: 40px;/*space below each input box*/
+  width:100%;
+  height:25px;
+  border-bottom: 2px solid #1e60ac;/*line only on the bottom*/
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+label{
+    font-size:14px;/*font size of label*/
+}
+.preferred-contact{
+    font-size:14px;
+}
+
+.selection{
+  margin-bottom:30px;/*space from radio buttons to the textarea*/
+}
+
+textarea {
+  width: 100%;
+  min-height: 180px;/*min-height must be 180px.*/
+  resize: vertical;/*resize only vertically, not horizontally*/
+}
+.submit{
+    display: block;
+    margin: auto;/*center button to the cneter of the page*/
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 140px;/*width of button*/
+    padding: 10px;/*space in button*/
+    font-size: 16px;/*font-size*/
+    background:rgb(188, 226, 245);
+    border-color: rgba(78, 78, 78, 0.068);/*transparent border*/
+    margin-top:40px;/*space from the textbox to the submit button*/
+    border-radius:20px;/*rounded corners*/
+}
+
+/*styling hover when cursor moves over the submit button*/
+.submit:hover{
+    background-color: rgba(18, 246, 227, 0.486);
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;/*sursor*/
+}
+
+/*resizing form content when page hits 680px and below , up to 270px*/
+@media (min-width:270px) and (max-width: 680px){
+  .submit{
+    width:100px;
+    font-size:15px;
+  }
+  form{
+    width:100%;
+  }
+  .container{
+    width:50%;
+  }
+}

@@ -1,0 +1,65 @@
+/*Icons flex-box*/
+.awards-icon-flex{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /*Center icons*/
+    text-align: center;/*Center text below icon*/
+}
+
+/*Icons margin, spacing around the individual icons*/
+.awards-icon-flex div{
+    margin: 10px;
+}
+
+.awards-icon-flex img{
+    padding: 5px;
+    width: 95px;
+    height: 95px;
+}
+
+/*Award details flex box*/
+.awards-details-flex{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Styling the awards details box*/
+.awards-details{
+    margin: auto;/*center the boxes to the middle of the page*/
+    margin-bottom: 25px;/*Spaces between the 3 boxes*/
+    line-height: 25px;
+    box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11); /*Shadow around the box*/
+    width: 650px;/*Width of the box*/
+    height:auto;/*Inherit the height based on the amount of content*/
+    padding: 20px;
+}
+
+/*Center the heading in the box*/
+.awards-details h2{
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    padding:20px;
+}
+
+/*Change width of the box to 70% of the screen when it resizes between 270px to 390px*/
+@media (min-width:270px) and (max-width: 390px){
+    .awards-details{
+        width:70%;
+    }
+}
+
+/*Change width of the box to 70% of the screen when it resizes between 390px to 900px*/
+@media(min-width:390px) and (max-width: 900px){
+  .awards-details{
+      width:70%;
+  }
+}

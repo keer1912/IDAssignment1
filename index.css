@@ -1,0 +1,90 @@
+/*banner below nav bar, flex*/
+.banner{
+    background: linear-gradient(to right, #e7f0f8, #a9c3d3);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*styling banner text contents*/
+.banner span{
+    color: #0000ff;
+}
+.banner h1{
+    font-size: 36px;
+    word-spacing: 5px;    
+}
+.banner p{
+    font-style: italic;
+}
+.banner h2{
+    word-spacing: 5px;    
+}
+
+.profpic1{
+    padding-top:30px;/*giving image space*/
+}    
+.profpic1 img{
+    width:100%;/*resizes according when page resize*/
+    height: auto;
+    vertical-align:bottom;/*flush it to the bottom of the banner*/
+}
+
+/*space around the intro text div */
+.intro{
+    padding-left: 20px;
+}
+
+/*next div below the banner */
+.content{
+    padding:120px 0px;/*padding inside the div*/
+    background-image: url("profile pic 2 blur.png");/*background image for the content.*/
+    background-size:cover;
+    background-position: center;
+}
+
+/*styling the text inside the div */
+.content h1{
+    color:white;
+    width: 50%;
+    margin:auto;
+    display: block;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(0,0,0,0.8),
+               0 0 1em rgba(0,0,0,0.9);
+}
+
+/*button that will navigate to the about page when clicked */
+.content button{
+    font-weight:bold;
+    border:none;
+    display: block;
+    margin: auto;/*center of the div */
+    padding:20px 60px;/*padding top&bottom , left&right*/
+    margin-top:30px;
+    transition: 0.3s;
+}
+
+/*hover styling, giving color etc.*/
+.content button:hover{
+    transition: 0.3s;
+    background-color: #37ffab;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*media query for when the width of the screen goes below 630px*/
+@media (max-width:630px){
+    .banner{
+        height:auto;
+    }
+    .banner img{
+        display:none;
+    }
+    .intro{
+        padding:35px;
+    }
+    .content h1{
+        width:85%;
+    }
+}
