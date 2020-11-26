@@ -38,7 +38,7 @@
 /*next div below the banner */
 .content{
     padding:120px 0px;/*padding inside the div*/
-    background-image: url("profile pic 2 blur.png");/*background image for the content.*/
+    background-image: url("profile-pic-2-blur.png");/*background image for the content.*/
     background-size:cover;
     background-position: center;
 }
