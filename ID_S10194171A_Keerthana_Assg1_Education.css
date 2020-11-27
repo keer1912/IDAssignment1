@@ -38,7 +38,7 @@
 /*style card to have hover effect*/
 .card:hover{
     transition: 0.4s;/*transition of 0.4s*/
-    background-color: #c7d3ec54;
+    background-color: #c1e7eb54;
     transform: scale(1.1);/*zoom in 1.1 of actual size*/
 }
 

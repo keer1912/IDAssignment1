@@ -4,12 +4,11 @@
   width: 50%;/*of the page*/
   margin: auto;/*center of the page*/
   display: block;
-  background: rgba(228, 236, 243, 0.438);
+  background: rgba(222, 231, 235, 0.438);
   box-shadow: 13px 14px 37px -21px rgba(0,0,0,0.11);
   padding:40px;
   margin-top:30px;
-  margin-bottom:70px;
-  border-radius: 10px;/*rounded corner*/
+  margin-bottom:90px;
 }
 
 form {
@@ -32,6 +31,7 @@ label{
 }
 .preferred-contact{
     font-size:14px;
+    margin-left:10px;
 }
 
 .selection{
@@ -44,26 +44,31 @@ textarea {
   resize: vertical;/*resize only vertically, not horizontally*/
 }
 .submit{
-    display: block;
-    margin: auto;/*center button to the cneter of the page*/
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    width: 140px;/*width of button*/
-    padding: 10px;/*space in button*/
-    font-size: 16px;/*font-size*/
-    background:rgb(188, 226, 245);
-    border-color: rgba(78, 78, 78, 0.068);/*transparent border*/
-    margin-top:40px;/*space from the textbox to the submit button*/
-    border-radius:20px;/*rounded corners*/
+  display: block;
+  margin: auto;/*center button to the cneter of the page*/
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 140px;/*width of button*/
+  height: 45px;
+  border-radius: 45px;
+  padding: 10px;/*space in button*/
+  font-size: 16px;/*font-size*/
+  background:rgb(255, 255, 255);
+  margin-top:40px;/*space from the textbox to the submit button*/
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border:none;
+  transition: 0.5s;
 }
 
 /*styling hover when cursor moves over the submit button*/
 .submit:hover{
-    background-color: rgba(18, 246, 227, 0.486);
-    transition: 0.3s;
-    transform: scale(1.1);
-    cursor: pointer;/*sursor*/
+  background-color: #56f8e0;
+  color:rgb(0, 0, 0);
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;/*cursor*/
+  transform: translateY(-7px);
+
 }
 
 /*resizing form content when page hits 680px and below , up to 270px*/
