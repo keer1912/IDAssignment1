@@ -97,7 +97,10 @@ hr{
     margin: auto;
     list-style: none;/*no bullet*/
 }
-
+.footer-links ul{
+    margin-top:0px;
+    padding-left:0px;
+}
 /*aligning the links into one straight line*/
 .footer-links li{
     display: inline-block;
