@@ -51,7 +51,24 @@ Mobile Compatibility
 - It helps me build my credibility when clients propective individuals view my site on their mobile. They would have a better 
 experience if the website is responsive.
 
- 
+*index.html*
+- A page that includes my picture, an introduction praragraph and a button that navigates to the about me page. 
+
+*about_me.html*
+- A picture of me with a paragraph introducing myself. Wrote on my personality typ etc.
+
+*education.html*
+- 3 cards showing my education institutes attended. Links to the school website when clicked.
+
+*skills.html*
+- Showcasing my top 3 tech skills and soft skills for the relevant age.
+
+*awards.html*
+- Showcasing my Awards for the academic years 2017-2020.
+
+*Contact.html*
+- A page for users to contact me. Fields include Names, Email, Phone number, Best way to reach my user & a Message box.
+
 ### Existing Features
 - Feature 1 
   - Ability to flex my navigation bar, adapt to mobile sizes
@@ -60,7 +77,7 @@ experience if the website is responsive.
 - Feature 3
   - Easy Navigation at the top and bottom
 
-There are many more features to be implemented in the future. currently , I can think of one feature I would like to implement
+There are many more features to be implemented in the future. currently , I can think of one feature I would like to implement.
 
 ### Features Left to Implement
 - Upcoming Feature 1
@@ -90,7 +107,7 @@ However iterestingly , my index.html button loses it background color when Iacce
 ### Media
 The photos used in this site were obtained from flaticon. Only the logos used were retrieved online.
 
-Awards icon
+*Awards icon*
 - Hollistic icon : https://www.flaticon.com/free-icon/holistic_1347256?term=holistic&page=1&position=2
 
 - Leadership icon : https://www.flaticon.com/free-icon/leadership_860454
@@ -103,7 +120,7 @@ Awards icon
 
 
 
-Skills Icon
+*Skills Icon*
 - C-Sharp Icon : https://www.flaticon.com/free-icon/c-sharp_2305851
 
 - Python Icon : https://www.flaticon.com/free-icon/file_2570575?term=python&page=1&position=9
@@ -117,7 +134,7 @@ Skills Icon
 - Sociable Icon : https://www.flaticon.com/free-icon/friendship_3314664
 
 
-School Logos
+*School Logos*
 - Queensway Logo : https://upload.wikimedia.org/wikipedia/en/c/c5/Queensway_Sec_Logo.jpg.png
 
 - Blangah Rise Primary Logo : https://www.facebook.com/BlangahRisePrimarySchool/photos/pb.234981573275539.-2207520000../965898286850527/?type=3&theater
@@ -126,7 +143,7 @@ School Logos
 
 
 
-Socials icon
+*Socials icon*
 - Linkedin icon : https://www.flaticon.com/free-icon/linkedin_145807?term=linkedin&page=1&position=4
 
 - Github icon : https://www.flaticon.com/free-icon/github_733553?term=github&page=1&position=7&related_item_id=733553
