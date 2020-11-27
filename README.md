@@ -100,7 +100,7 @@ Contact form
   the necessary fields filled in, the form will generate a "please enter into this field" message. This is achieved using the required keyword in the input type.
   But my form does not validate the email where it looks out for invalid email addresses. This is something Iwould like to implement in the time to come.
 
-*media queries*
+*media queries*<br>
 My project responses accordingly when the screen resizes. I have accomadated to one of the smaller sized phones, the Galaxy Fold. I have used media query and flex to achieve this. However iterestingly , my index.html button loses it background color when I access it via mobile phone. I have not found a solution to this problem and i think It is a bug.
 
 
